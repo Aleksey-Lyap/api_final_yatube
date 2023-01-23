@@ -1,6 +1,5 @@
 import pytest
-
-from posts.models import Comment, Follow, Group, Post
+from yatube_api.posts.models import Comment, Follow, Group, Post
 
 
 @pytest.fixture

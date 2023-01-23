@@ -1,9 +1,8 @@
 from http import HTTPStatus
 
-from django.db.utils import IntegrityError
 import pytest
-
-from posts.models import Follow
+from django.db.utils import IntegrityError
+from yatube_api.posts.models import Follow
 
 
 @pytest.mark.django_db(transaction=True)
