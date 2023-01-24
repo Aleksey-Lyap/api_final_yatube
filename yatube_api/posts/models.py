@@ -37,7 +37,7 @@ class Post(models.Model):
 
     def __str__(self):
         return self.text
-   
+
     class Meta:
         default_related_name = 'posts'
 
@@ -57,7 +57,7 @@ class Comment(models.Model):
         auto_now_add=True,
         db_index=True
     )
-    
+
     class Meta:
         default_related_name = 'comments'
 
