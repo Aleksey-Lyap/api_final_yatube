@@ -1,24 +1,22 @@
-### Описание проекта «API для Yatube»:
+### API для Yatube
+
+## Описание
 API-сервис Yatube может использоваться для взаимодействия с другими приложениями и сервисами.
 Доступ к контенту сайта  частично ограничен: смотреть информацию о постах могут любые посльзователи, а создавать публикации и подписываться на авторов только авторизованые пользователи.
 
 ### Как запустить проект:
 Клонировать репозиторий и перейти в него в командной строке:
 ```
-git clone https://github.com/Aleksey-Lyap/api_final_yatube.git
+git clone git@github.com:Aleksey-Lyap/api_fro_YaTube.git
 ```
 Cоздать и активировать виртуальное окружение:
 ```
 python3 -m venv venv
-```
-```
-source venv/bin/activate
+source venv/Scripts/activate
 ```
 Установить зависимости из файла requirements.txt:
 ```
 python3 -m pip install --upgrade pip
-```
-```
 pip install -r requirements.txt
 ```
 Выполнить миграции:
@@ -59,3 +57,6 @@ Response samples:
 }
 ```
 Документацию можно найти по этому адресу _http://127.0.0.1:8000/redoc/_
+
+### Автор
+Ляпин Алексей [https://github.com/Aleksey-Lyap]
